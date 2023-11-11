@@ -196,9 +196,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """
-<b><code><a href="https://t.me/movierulzking">{file_caption}</a></code>
-
+    CAPTION = """<b>
 • ғɪʟᴇ ɴᴀᴍᴇ: {file_name}
 
 • ғɪʟᴇ sɪᴢᴇ : {file_size}
