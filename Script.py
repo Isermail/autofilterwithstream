@@ -199,8 +199,14 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b><code><a href="https://t.me/movierulzking">{file_caption}</a></code>
 
-@requestyourmoviehere
-@hotflashdealss
+• ғɪʟᴇ ɴᴀᴍᴇ: {file_name}
+
+• ғɪʟᴇ sɪᴢᴇ : {file_size}
+
+• I'ᴍ ғʀᴏᴍ <a href="https://t.me/anymovierequesthere">Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ</a> 👻
+• Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ <a href="https://t.me/share/url?url=https://t.me/anymovierequesthere">Sʜᴀʀᴇ Mᴇ</a> 🥱
+• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/lootdealsstech">Dᴇᴀʟs</a> 😉
+
 </b>"""
     
     EX_FEATURE_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
