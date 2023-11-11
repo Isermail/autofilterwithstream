@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kipaw96209:a0CLZ056nocL9tO4@cluster0.znbnxyq.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "mahi")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://daron66971:H3YTY8Pes37nWIVT@cluster0.szbh4tu.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "zoro")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mahesh')
 
 # Others
@@ -68,7 +68,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movierulzking')
 MSG_ALRT = environ.get('MSG_ALRT', 'hey...you look at me')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
@@ -95,8 +95,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://filestreampro-21f4b457b795.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://filestreampro-21f4b457b795.herokuapp.com/".format(FQDN, PORT)
+URL = "https://hero-zyxk.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://hero-zyxk.onrender.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -111,9 +111,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://filestreampro-21f4b457b795.herokuapp.com/".format(FQDN)
+    URL = "https://hero-zyxk.onrender.com/".format(FQDN)
 else:
-    URL = "https://filestreampro-21f4b457b795.herokuapp.com/".format(FQDN)
+    URL = "https://hero-zyxk.onrender.com/".format(FQDN)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
