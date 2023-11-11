@@ -198,7 +198,6 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>
 • ғɪʟᴇ ɴᴀᴍᴇ: {file_name}
-
 • ғɪʟᴇ sɪᴢᴇ : {file_size}
 
 • I'ᴍ ғʀᴏᴍ <a href="https://t.me/anymovierequesthere">Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ</a> 👻
