@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/lootdealsstech"), 
-                    InlineKeyboardButton('Owner😶‍🌫️', url="https://t.me/sm_contactadmin_bot")
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/hotflashdealss"), 
+                    InlineKeyboardButton('Owner😶‍🌫️', url="https://t.me/Kanhaiya_me")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -50,14 +50,14 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/lootdealsstech"), 
-                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/anymovierequesthere")
+                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/+cDUWoP_OPEgxMjU9")
                 ],[                                         
                     InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs💎', callback_data='help'), 
                     InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('💎Join Backup🛡️', url="t.me/movierulzking")                            
+                    InlineKeyboardButton('💎Join Backup🛡️', url="https://t.me/Movies_real_hd")                            
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -104,7 +104,7 @@ async def start(client, message):
                     InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('💎Join Backup🛡️', url="t.me/movierulzking")                            
+                    InlineKeyboardButton('💎Join Backup🛡️', url="https://t.me/Movies_real_hd")                            
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
