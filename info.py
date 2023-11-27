@@ -21,7 +21,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/60bc8070a0cbb4a72281d.jpg https://telegra.ph/file/485eb4b857ffdfec99c89.jpg https://telegra.ph/file/e8d681646d3b794c38009.jpghttps://telegra.ph/file/282b55bbb6e27ce548c8b.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/697d1e8ad6a7268273c13.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/8b9659436b5e50e57e905.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
@@ -43,9 +43,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://daron66971:H3YTY8Pes37nWIVT@cluster0.szbh4tu.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "zoro")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mahesh')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cugyfu:zTB0uhJp5nkSG1CZ@cluster0.6xvh1jw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 RD_RULES = environ.get('RD_RULES', "https://t.me/c/1845700490/3")
@@ -63,8 +63,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/anymovierequesthere')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movierulzking')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+cDUWoP_OPEgxMjU9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_real_hd')
 MSG_ALRT = environ.get('MSG_ALRT', 'hey...you look at me')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
