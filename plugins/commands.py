@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/Kanhaiya_me"), 
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/hotflashdealss"), 
                     InlineKeyboardButton('Owner😶‍🌫️', url="https://t.me/Kanhaiya_me")
                 ]]
         
