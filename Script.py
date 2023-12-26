@@ -202,7 +202,7 @@ Nᴀᴍᴇ - {}"""
 
 • I'ᴍ ғʀᴏᴍ <a href="https://t.me/Movie_Request_Group_InHD">Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ</a> 👻
 • Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ <a href="https://t.me/share/url?url=https://t.me/Movie_Request_Group_InHD">Sʜᴀʀᴇ Mᴇ</a> 🥱
-• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/lootdealsstech">Dᴇᴀʟs</a> 😉
+• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/hotflashdealss">Dᴇᴀʟs</a> 😉
 
 </b>"""
     
